@@ -237,7 +237,6 @@ button {
   flex: 1;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .controls {
       flex-direction: column;
