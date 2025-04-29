@@ -1,4 +1,7 @@
-/* Estilos generales */
+
+@import url('variables.css');
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,33 +10,41 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #fdf6e3;
   color: #333;
   line-height: 1.6;
   padding: 20px;
+  
+  
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #e0f7fa;
 }
 
 header {
   text-align: center;
   margin-bottom: 30px;
+  font-family: "1_Minecraft-Regular";
+
 }
 
 header h1 {
   color: #2c3e50;
   margin-bottom: 10px;
+  font-family: "Minecrafter-Alt";
+
 }
 
 header p {
   color: #7f8c8d;
+  font-family: "1_Minecraft-Regular";
 }
 
-/* Controles */
+/* Control */
 .controls {
   display: flex;
   flex-wrap: wrap;
@@ -41,6 +52,8 @@ header p {
   align-items: center;
   margin-bottom: 20px;
   gap: 15px;
+    font-family: "1_Minecraft-Regular";
+
 }
 
 .search-filter {
@@ -49,6 +62,7 @@ header p {
   gap: 10px;
   align-items: center;
   flex-grow: 1;
+
 }
 
 .search-filter input, 
@@ -57,11 +71,14 @@ header p {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
+  font-family: "1_Minecraft-Regular";
+
 }
 
 .search-filter input {
   flex-grow: 1;
   min-width: 200px;
+  
 }
 
 .search-filter select {
@@ -75,6 +92,8 @@ button {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
+  font-family: "1_Minecraft-Regular";
+
 }
 
 .btn-primary {
@@ -102,6 +121,8 @@ button {
 
 .btn-edit:hover {
   background-color: #d35400;
+    font-family: "1_Minecraft-Regular";
+
 }
 
 /* Grid de recetas */
@@ -114,9 +135,10 @@ button {
 .recipe-card {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   overflow: hidden;
   transition: transform 0.3s;
+  box-shadow: 10 4px 10px rgba(0, 0, 0, 0.05);
+  
 }
 
 .recipe-card:hover {
@@ -179,7 +201,16 @@ button {
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.4);
+  font-family: "1_Minecraft-Regular";
+
 }
+
+/* posibiliddad */
+
+.recipeform12{
+  font-family: "1_Minecraft-Regular";
+}
+
 
 .modal-content {
   background-color: #fefefe;
@@ -201,17 +232,21 @@ button {
 
 .close:hover {
   color: black;
+  font-family: "1_Minecraft-Regular";
+
 }
 
 /* Formulario */
 .form-group {
   margin-bottom: 15px;
+  
 }
 
 .form-group label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  
 }
 
 .form-group input,
@@ -222,6 +257,8 @@ button {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
+  font-family: "1_Minecraft-Regular";
+
 }
 
 .form-group textarea {
@@ -235,6 +272,7 @@ button {
 
 .form-row .form-group {
   flex: 1;
+  
 }
 
 @media (max-width: 768px) {
@@ -244,6 +282,8 @@ button {
   
   .search-filter {
       width: 100%;
+      font-family: "1_Minecraft-Regular";
+
   }
   
   .form-row {
